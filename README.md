@@ -5,3 +5,27 @@
 ### Главная страница
 
 ![Главная страница](screenshots/site-04.png)
+
+### Страница регистрации
+
+![Главная страница](screenshots/site-03.png)
+
+### Пополнение счёта
+
+![Главная страница](screenshots/site-07.png)
+
+### Партнёры
+
+![Главная страница](screenshots/site-09.png)
+
+### История операций
+
+![Главная страница](screenshots/site-10.png)
+
+### Настройки
+
+![Главная страница](screenshots/settings.png)
+
+### Доп. настройки
+
+![Главная страница](screenshots/other-settings.png)
