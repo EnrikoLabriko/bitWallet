@@ -1,0 +1,94 @@
+
+.left-panel > div {
+    cursor: pointer;
+}
+
+.left-panel .button-7 {
+    background: url('../img/button-7-blue.png');
+}
+
+.complete-transaction {
+    width: 37px;
+    height: 37px;
+    background: url('../img/V-pict.png') no-repeat 50% 50%;
+}
+
+.canceled-transaction {
+    width: 37px;
+    height: 37px;
+    background: url('../img/X-pict.png') no-repeat 50% 50%;
+}
+
+.in-process-transaction {
+    width: 37px;
+    height: 37px;
+    background: url('../img/0-pict.png') no-repeat 50% 50%;
+}
+
+
+.content table {
+    margin-top: 30px;
+}
+
+    .content table td.in,
+    .content table td.out {
+        /*text-align: right;*/
+        width: 95px;
+    }
+
+    .content table td.date {
+        width: 95px;
+    }
+
+    .content table td.icon {
+        width: 37px;
+    }
+
+    .content table td.in {
+        color: #00ab4e;
+    }
+
+    .content table td.out {
+        color: #e23d27;
+    }
+
+    /*первый тр*/
+    .content table tr:nth-child(1) td:nth-child(1) {
+        background: url(../img/table-tr-top-shadow.png) no-repeat 0px top;
+    }
+
+    .content table tr:nth-child(1) td:nth-child(2) {
+        background: url(../img/table-tr-top-shadow.png) no-repeat -126px top;
+    }
+
+    .content table tr:nth-child(1) td:nth-child(3) {
+        background: url(../img/table-tr-top-shadow.png) no-repeat -252px top;
+    }
+
+    .content table tr:nth-child(1) td:nth-child(4) {
+        background: url(../img/table-tr-top-shadow.png) no-repeat -378px top;
+    }
+
+    .content table tr:nth-child(1) td:nth-child(5) {
+        background: url(../img/table-tr-top-shadow.png) no-repeat -693px top;
+    }
+
+    .content table tr:hover td:nth-child(1) {
+        background: url(../img/table-tr-top-shadow.png) no-repeat 0px top, url(../img/table-tr-bottom-shadow.png) no-repeat 0px bottom, url(../img/table-tr-bg-left.png) repeat-y left top;
+    }
+
+    .content table tr:hover td:nth-child(2) {
+        background: url(../img/table-tr-top-shadow.png) no-repeat -126px top, url(../img/table-tr-bottom-shadow.png) no-repeat -126px bottom;
+    }
+
+    .content table tr:hover td:nth-child(3) {
+        background: url(../img/table-tr-top-shadow.png) no-repeat -252px top, url(../img/table-tr-bottom-shadow.png) no-repeat -252px bottom;
+    }
+
+    .content table tr:hover td:nth-child(4) {
+        background: url(../img/table-tr-top-shadow.png) no-repeat -378px top, url(../img/table-tr-bottom-shadow.png) no-repeat -378px bottom, url(../img/table-tr-bg-right.png) repeat-y 155px top;
+    }
+
+    .content table tr:hover td:nth-child(5) {
+        background: url(../img/table-tr-top-shadow.png) no-repeat -693px top, url(../img/table-tr-bottom-shadow.png) no-repeat -693px bottom, url(../img/table-tr-bg-right.png) repeat-y right top;
+    }

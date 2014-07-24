@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>История операций</title>
+    <link rel="stylesheet" type="text/css" href="res/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="res/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="res/css/scroll.css" />
+    <link rel="stylesheet" type="text/css" href="res/css/select.css" />
+    <link rel="stylesheet" type="text/css" href="res/css/style-10.css" />
+    <script type="text/javascript" src="res/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="res/js/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="res/js/popup.js"></script>
+    <script type="text/javascript" src="res/js/global.js"></script>
+    <script type="text/javascript" src="res/js/drag.js"></script>
+    <script type="text/javascript" src="res/js/scroll.js"></script>
+    <script type="text/javascript" src="res/js/ctrl.js"></script>
+
+    <script type="text/javascript" src="res/js/pages/history.js"></script>
+</head>
+<body>
+    <div class="table-help-plate hidden"></div>
+    <div class="table-menu hidden">
+        <div class="table-menu-1">переименовать</div>
+        <div class="table-menu-2">удалить</div>
+        <div class="table-menu-3">история операций</div>
+    </div>
+    <div class="header-container">
+        <div class="header">
+            <a href="./settings.html" class="install-button">
+                <div class="install-button-active">
+                    <img src="res/img/install-button-hover.png">
+                </div>
+            </a>
+            <div class="tech-button">
+                <div class="tech-button-active">
+                    <img src="res/img/tech-button-hover.png">
+                </div>
+            </div>
+            <div class="lang-button"></div>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="content-container">
+            <div class="balance-header clearfix">
+                <div class="balance-button">Баланс: 356,4 $</div>
+                <div class="mail-button">Max_ora@gmail. com</div>
+                <div class="exit-button">Выйти</div>
+            </div>
+            <div class="left-panel">
+                <a href="./site-04.html" class="db button-1"></a>
+                <a href="./site-06.html" class="db button-2"></a>
+                <a href="./site-07.html" class="db button-3"></a>
+                <a href="./site-08.html" class="db button-4"></a>
+                <a href="./site-08.html" class="db button-5"></a>
+                <a href="./site-09.html" class="db button-6"></a>
+                <a href="./site-10.html" class="db button-7"></a>
+                <a href="./site-11.html" class="db button-8"></a>
+            </div>
+            <div class="content">
+                <div class="title">История операций</div>
+                <div class="form-container">
+                    <label>выбор кошелька</label>
+                    <div class="ctrl select" name="wallet-from" compound="choose"
+                         options="196qcBnKemVGm3nREdr:12,463:1;196qcBnKemVGm3nREdr:12,463:2;196qcBnKemVGm3nREdr:12,463:3;196qcBnKemVGm3nREdr:12,463:4;196qcBnKemVGm3nREdr:12,463:5;196qcBnKemVGm3nREdr:12,463:6;196qcBnKemVGm3nREdr:12,463:7;196qcBnKemVGm3nREdr:12,463:8;196qcBnKemVGm3nREdr:12,463:9">
+                        Выберите кошелек:-1
+                    </div>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>дата</th>
+                            <th>получено</th>
+                            <th>отправлено</th>
+                            <th>контрагент</th>
+                            <th>статус</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="date">01.01.1901</td>
+                            <td class="in bit-green">+100,540</td>
+                            <td class="out"></td>
+                            <td class="name">12aBD9fK4KcZ5T yzex2rGri3nJqLM6</td>
+                            <td class="icon"><div class="complete-transaction"></div></td>
+                        </tr>
+                        <tr>
+                            <td class="date">01.01.1901</td>
+                            <td class="in"></td>
+                            <td class="out bit-red">-1,540</td>
+                            <td class="name">12aBD9fK4KcZ5T yzex2rGri3nJqLM6</td>
+                            <td class="icon"><div class="canceled-transaction"></div></td>
+                        </tr>
+                        <tr>
+                            <td class="date">01.01.1901</td>
+                            <td class="in"></td>
+                            <td class="out bit-red">-10,540</td>
+                            <td class="name">12aBD9fK4KcZ5T yzex2rGri3nJqLM6</td>
+                            <td class="icon"><div class="in-process-transaction"></div></td>
+                        </tr>
+                        <tr>
+                            <td class="date">01.01.1901</td>
+                            <td class="in bit-green">+60,540</td>
+                            <td class="out"></td>
+                            <td class="name">12aBD9fK4KcZ5T yzex2rGri3nJqLM6</td>
+                            <td class="icon"><div class="complete-transaction"></div></td>
+                        </tr>
+                        <tr>
+                            <td class="date">01.01.1901</td>
+                            <td class="in"></td>
+                            <td class="out bit-red">-322,540</td>
+                            <td class="name">12aBD9fK4KcZ5T yzex2rGri3nJqLM6</td>
+                            <td class="icon"><div class="canceled-transaction"></div></td>
+                        </tr>
+                        <tr>
+                            <td class="date">01.01.1901</td>
+                            <td class="in"></td>
+                            <td class="out bit-red">-0,540</td>
+                            <td class="name">12aBD9fK4KcZ5T yzex2rGri3nJqLM6</td>
+                            <td class="icon"><div class="in-process-transaction"></div></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="cb"></div>
+                <div class="btn-cont" style="margin-top: 40px;">
+                    <a class="content-btn btn-bottom restore" href="#">Выгрузка операций</a>
+                </div>
+                <div class="cb"></div>
+            </div>
+        </div>
+        <div class="content-container-shadow">
+        </div>
+    </div>
+</body>
+</html>

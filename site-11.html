@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Адресная книга</title>
+    <link rel="stylesheet" type="text/css" href="res/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="res/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="res/css/style-11.css" />
+    <script type="text/javascript" src="res/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="res/js/global.js"></script>
+    <script type="text/javascript" src="res/js/popup.js"></script>
+    <script type="text/javascript" src="res/js/site-06.js"></script>
+</head>
+<body>
+    <div class="table-help-plate hidden"></div>
+    <div class="table-menu hidden">
+        <div class="table-menu-1">переименовать</div>
+        <div class="table-menu-2">удалить</div>
+        <div class="table-menu-3">добавить комментарий</div>
+    </div>
+    <div class="header-container">
+        <div class="header">
+            <a href="./settings.html" class="install-button">
+                <div class="install-button-active">
+                    <img src="res/img/install-button-hover.png">
+                </div>
+            </a>
+            <div class="tech-button">
+                <div class="tech-button-active">
+                    <img src="res/img/tech-button-hover.png">
+                </div>
+            </div>
+            <div class="lang-button"></div>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="content-container">
+            <div class="balance-header clearfix">
+                <div class="balance-button">Баланс: 356,4 $</div>
+                <div class="mail-button">Max_ora@gmail. com</div>
+                <div class="exit-button">Выйти</div>
+            </div>
+            <div class="left-panel">
+                <a href="./site-04.html" class="db button-1"></a>
+                <a href="./site-06.html" class="db button-2"></a>
+                <a href="./site-07.html" class="db button-3"></a>
+                <a href="./site-08.html" class="db button-4"></a>
+                <a href="./site-08.html" class="db button-5"></a>
+                <a href="./site-09.html" class="db button-6"></a>
+                <a href="./site-10.html" class="db button-7"></a>
+                <a href="./site-11.html" class="db button-8"></a>
+            </div>
+            <div class="content">
+                <div class="title">Адресная книга</div>
+                <div class="choose-wallet-container">
+                    <input class="input" type="text" id="choose-wallet" placeholder="поиск">
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>присвоенное имя</th>
+                            <th>номер кошелька</th>
+                            <th>дата последней транзакции</th>
+                            <th>дополнительно</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="name">Грызун</td>
+                            <td class="number">12aBD9fK4KcZ5T yzex2rGri3nJqLM6</td>
+                            <td class="date">04.02.13</td>
+                            <td class="other">Окимыч, встретились у гаражей, любит сосики и мёд, истиный ариец.</td>
+                        </tr>
+                        <tr>
+                            <td class="name">Грызун</td>
+                            <td class="number">12aBD9fK4KcZ5T yzex2rGri3nJqLM6</td>
+                            <td class="date">04.02.13</td>
+                            <td class="other">Окимыч, встретились у гаражей, любит сосики и мёд, истиный ариец.</td>
+                        </tr>
+                        <tr>
+                            <td class="name">Грызун</td>
+                            <td class="number">12aBD9fK4KcZ5T yzex2rGri3nJqLM6</td>
+                            <td class="date">04.02.13</td>
+                            <td class="other">Окимыч, встретились у гаражей, любит сосики и мёд, истиный ариец.</td>
+                        </tr>
+                        <tr>
+                            <td class="name">Грызун</td>
+                            <td class="number">12aBD9fK4KcZ5T yzex2rGri3nJqLM6</td>
+                            <td class="date">04.02.13</td>
+                            <td class="other">Окимыч, встретились у гаражей, любит сосики и мёд, истиный ариец.</td>
+                        </tr>
+                        <tr>
+                            <td class="name">Грызун</td>
+                            <td class="number">12aBD9fK4KcZ5T yzex2rGri3nJqLM6</td>
+                            <td class="date">04.02.13</td>
+                            <td class="other">Окимыч, встретились у гаражей, любит сосики и мёд, истиный ариец.</td>
+                        </tr>
+                        <tr>
+                            <td class="name">Грызун</td>
+                            <td class="number">12aBD9fK4KcZ5T yzex2rGri3nJqLM6</td>
+                            <td class="date">04.02.13</td>
+                            <td class="other">Окимыч, встретились у гаражей, любит сосики и мёд, истиный ариец.</td>
+                        </tr>
+                        <tr>
+                            <td class="name"><input class="input input-short" type="text"></td>
+                            <td class="number"></td>
+                            <td class="date"></td>
+                            <td class="other"><input class="input input-long" type="text" value="Окимыч, встретились"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="cb"></div>
+                <div class="btn-cont double" id="actions" style="margin-top: 50px;">
+                    <div class="double-buttons btn-bottom">
+                        <a class="button-1" href="#">Импорт</a><!--
+                        --><a class="button-2" href="#">Экспорт</a>
+                    </div>
+                </div>
+                <div class="cb"></div>
+            </div>
+        </div>
+        <div class="content-container-shadow">
+        </div>
+    </div>
+</body>
+</html>

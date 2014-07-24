@@ -1,0 +1,30 @@
+﻿.scroll-bar {
+    width: 20px;
+    position: absolute;
+    background: #a3a3a7;
+    border-radius: 5px;
+    /*padding-bottom: 1px;*/
+    /*padding-top: 2px;*/
+    z-index: 101;
+}
+
+    .scroll-bar .drag {
+        width: 18px;
+        background: #FFF;
+        border: 1px solid #333;
+        box-shadow: 0px 0px 3px #333;
+        border-radius: 5px;
+        cursor: ns-resize;
+    }
+
+@-moz-document url-prefix() {
+    .scroll-bar {
+        position: fixed;
+    }
+    .select .scroll-bar {
+        position: absolute;
+    }
+    .select .select-middle {
+        position: absolute;
+    }
+}

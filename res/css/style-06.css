@@ -1,0 +1,306 @@
+
+.left-panel > div {
+    cursor: pointer;
+}
+
+.left-panel .button-2 {
+    height: 81px;
+    width: 130px;
+    background: url('../img/button-2-blue.png');
+}
+
+.content .choose-wallet-container {
+    /*position: relative;*/
+    margin-top: 23px;
+    float: left;
+    /*z-index: 5;*/
+}
+
+.content .choose-wallet-container,
+.content .input-menu {
+    margin-left: -1px;
+}
+
+
+.choose-wallet-container .choose-wallet,
+.total-container .total {
+    
+    font-size: 20px;
+    color: #2e6a97;
+}
+
+.choose-wallet-container .input-choose-wallet {
+    
+    font-size: 20px;
+    cursor: pointer;
+    width: 377px;
+    height: 45px;
+    border: none;
+    background: url('../img/input2.png') no-repeat;
+    padding-left: 20px;
+    margin: 5px 2px 0 2px;
+}
+
+.content .input-menu {
+    
+    font-size: 20px;
+    position: absolute;
+    margin-right: 40px;
+    top: 92px;
+    width: 401px;
+    height: 232px;
+    background: url('../img/input-menu-background.png');
+    z-index: 1;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.input-menu .input-menu-bar {
+    width: 401px;
+    height: 37px;
+    cursor: pointer;
+}
+
+    .input-menu .input-menu-bar:first-of-type {
+        margin-top: 45px;
+    }
+
+.input-menu-bar .left-bar {
+    float: left;
+    padding-right: 7px;
+    padding-left: 20px;
+    width: 220px;
+}
+
+.input-menu-bar .right-bar {
+    font-weight: bold;
+    color: #2e6a97;
+    margin-left: 255px;
+    padding-left: 14px;
+}
+
+.content .operation-table {
+    width: 725px;
+    height: 423px;
+    
+    font-size: 20px;
+    margin-top: 32px;
+    background: url('../img/table-06-background.png') no-repeat;
+}
+
+.thead.tline > div {
+    font-weight: normal;
+    color: #231f20;
+    height: 63px;
+    line-height: 63px;
+    text-align: left;
+}
+
+.operation-table .tline.active-line {
+    background: url('../img/table-06-active-line.png') no-repeat;
+}
+
+.currency-icon {
+    margin-top: 0px;
+    width: 23px;
+    height: 22px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.currency-icon-1 {
+    background: url('../img/currency-icon-1.png') no-repeat left top;
+}
+
+    .currency-icon-1.active-icon {
+        background: url('../img/currency-icon-1-active.png') no-repeat left top;
+    }
+
+.currency-icon-2 {
+    margin-left: 1px;
+    background: url('../img/currency-icon-2.png') no-repeat left top;
+}
+
+    .currency-icon-2.active-icon {
+        background: url('../img/currency-icon-2-active.png') no-repeat left top;
+    }
+
+.currency-icon-3 {
+    margin-left: 1px;
+    background: url('../img/currency-icon-3.png') no-repeat left top;
+}
+
+    .currency-icon-3.active-icon {
+        background: url('../img/currency-icon-3-active.png') no-repeat left top;
+    }
+
+.tline div {
+    display: inline-block;
+    vertical-align: middle;
+    table-layout: fixed;
+    line-height: 72px;
+    height: 72px;
+        text-align: center;
+    color: #48484a;
+    margin-left: -4px;
+}
+
+.tline .double-line {
+    word-break: break-all;
+    line-height: 18px;
+    padding-top: 18px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tline:nth-of-type(2) div {
+    margin-top: 0;
+}
+
+.tline .column-1 {
+    width: 207px;
+    margin-left: 0;
+}
+
+.tline .column-2 {
+    width: 99px;
+}
+
+.tline .column-3 {
+    width: 99px;
+}
+
+.tline .column-4 {
+    width: 207px;
+    font-weight: normal;
+}
+
+.tline .column-5 {
+    width: 108px;
+}
+
+.content-container .bottom-button {
+    position: absolute;
+    bottom: -26px;
+    right: 0;
+    width: 247px;
+    height: 80px;
+    background: url('../img/reg-button-with-shadow.png') 20px 0 no-repeat;
+    
+    font-size: 20px;
+    cursor: pointer;
+    float: right;
+    color: #fff;
+    line-height: 46px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.table-menu {
+    position: absolute;
+    /*display: none;*/
+    width: 225px;
+    height: 161px;
+    background: url('../img/table-menu-background.png');
+    z-index: 1000;
+    
+    font-size: 20px;
+    text-align: center;
+    margin-top: 17px;
+}
+
+    .table-menu div {
+        cursor: pointer;
+        color: #48484a;
+    }
+
+        .table-menu div:hover {
+            color: #2e6a97;
+        }
+
+    .table-menu .table-menu-1 {
+        width: 225px;
+        height: 58px;
+        line-height: 58px;
+    }
+
+    .table-menu .table-menu-2 {
+        width: 225px;
+        height: 44px;
+        line-height: 44px;
+    }
+
+    .table-menu .table-menu-3 {
+        width: 225px;
+        height: 59px;
+        line-height: 59px;
+    }
+
+.table-help-plate {
+    position: absolute;
+    /*display: none;*/
+    width: 370px;
+    height: 54px;
+    background: url('../img/help-plate-06.png');
+    z-index: 999;
+}
+
+.content table{
+    margin-top: 40px;
+}
+
+.content table td.btc,
+.content table td.summ {
+    /*text-align: right;*/
+    width: 85px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.content table td.date {
+    width: 95px;
+}
+.content table td.name {
+    width: 155px;
+}
+
+/*первый тр*/
+.content table tr:nth-child(1) td:nth-child(1) {
+    background: url(../img/table-tr-top-shadow.png) no-repeat 0px top;
+}
+
+.content table tr:nth-child(1) td:nth-child(2) {
+    background: url(../img/table-tr-top-shadow.png) no-repeat -155px top;
+}
+
+.content table tr:nth-child(1) td:nth-child(3) {
+    background: url(../img/table-tr-top-shadow.png) no-repeat -261px top;
+}
+
+.content table tr:nth-child(1) td:nth-child(4) {
+    background: url(../img/table-tr-top-shadow.png) no-repeat -367px top;
+}
+
+.content table tr:nth-child(1) td:nth-child(5) {
+    background: url(../img/table-tr-top-shadow.png) no-repeat -619px top;
+}
+
+.content table tr:hover td:nth-child(1) {
+    background: url(../img/table-tr-top-shadow.png) no-repeat 0px top, url(../img/table-tr-bottom-shadow.png) no-repeat 0px bottom, url(../img/table-tr-bg-left.png) repeat-y left top;
+}
+
+.content table tr:hover td:nth-child(2) {
+    background: url(../img/table-tr-top-shadow.png) no-repeat -155px top, url(../img/table-tr-bottom-shadow.png) no-repeat -155px bottom;
+}
+
+.content table tr:hover td:nth-child(3) {
+    background: url(../img/table-tr-top-shadow.png) no-repeat -261px top, url(../img/table-tr-bottom-shadow.png) no-repeat -261px bottom;
+}
+
+.content table tr:hover td:nth-child(4) {
+    background: url(../img/table-tr-top-shadow.png) no-repeat -367px top, url(../img/table-tr-bottom-shadow.png) no-repeat -367px bottom, url(../img/table-tr-bg-right.png) repeat-y 140px top;
+}
+
+.content table tr:hover td:nth-child(5) {
+    background: url(../img/table-tr-top-shadow.png) no-repeat -619px top, url(../img/table-tr-bottom-shadow.png) no-repeat -619px bottom, url(../img/table-tr-bg-right.png) repeat-y right top;
+}

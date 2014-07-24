@@ -1,0 +1,36 @@
+﻿.discrete-slider {
+    width: 135px;
+    height: 45px;
+    background: url(../img/slider/bool-slider.png) no-repeat left top;
+}
+
+    .discrete-slider .move {
+        width: 45px;
+        height: 45px;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .discrete-slider.bool-slider.step-0 .move {
+        background: url(../img/slider/bool-slider.png) no-repeat 0 -45px;
+    }
+
+    .discrete-slider.bool-slider.step-1 .move {
+        background: url(../img/slider/bool-slider.png) no-repeat -45px -45px;
+    }
+
+    .discrete-slider.session-slider {
+        background: url(../img/slider/session-slider.png) no-repeat 0 0;
+    }
+
+        .discrete-slider.session-slider.step-0 .move {
+            background: url(../img/slider/session-slider.png) no-repeat 0 -45px;
+        }
+
+        .discrete-slider.session-slider.step-1 .move {
+            background: url(../img/slider/session-slider.png) no-repeat -45px -45px;
+        }
+
+        .discrete-slider.session-slider.step-2 .move {
+            background: url(../img/slider/session-slider.png) no-repeat -90px -45px;
+        }

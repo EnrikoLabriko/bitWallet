@@ -1,0 +1,98 @@
+
+
+.left-panel > div {
+    cursor: pointer;
+}
+
+.left-panel .button-1 {
+    height: 110px;
+    width: 130px;
+    background: url('../img/button-1-blue.png') 1px 0;
+}
+
+.content .payment-info {
+    font-size: 20px;
+    color: #48484a;
+    line-height: 44px;
+    margin-top: 20px;
+}
+
+.payment-info .info-line {
+    width: 720px;
+    height: 44px;
+    border-bottom: 1px solid #aeaeb2;
+}
+
+    .payment-info .info-line.line-8 {
+        height: 62px;
+        line-height: 62px;
+    }
+
+.info-line > div {
+    display: inline-block;
+}
+
+.info-line .left-info {
+    float: left;
+    width: 360px; /*360*/
+    height: 44px;
+    /*box-shadow: 0 0 1px black;*/
+}
+
+.info-line.line-8 .left-info {
+    height: 62px;
+}
+
+.info-line .right-info {
+    width: 360px;
+    height: 44px;
+    /*box-shadow: 0 0 1px black;*/
+}
+
+.info-line.line-8 .right-info {
+    height: 62px;
+}
+
+.right-info .input-model-name {
+    font-size: 20px;
+    width: 340px;
+    height: 45px;
+    border: none;
+    background: url('../img/input-short.png') no-repeat -2px 0;
+    padding-left: 20px;
+    margin: 5px 2px 0 2px;
+}
+
+.content-container .bottom-buttons {
+    position: absolute;
+    bottom: -26px;
+    right: 0;
+    width: 462px;
+    height: 80px;
+    background: url('../img/bottom-buttons.png') no-repeat;
+    font-size: 20px;
+    cursor: pointer;
+    float: right;
+    color: #fff;
+    line-height: 46px;
+    text-align: right;
+}
+
+.bottom-buttons > div {
+    display: inline-block;
+    margin-left: -4px;
+}
+
+.bottom-buttons .button-1 {
+    width: 233px;
+    padding-right: 15px;
+}
+
+.bottom-buttons .button-2 {
+    width: 162px;
+    padding-right: 45px;
+}
+
+#actions{
+    margin-top: 250px;
+}

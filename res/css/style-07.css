@@ -1,0 +1,153 @@
+
+
+.left-panel > div {
+    cursor: pointer;
+}
+
+.left-panel .button-1 {
+    height: 110px;
+    width: 130px;
+    background: url('../img/button-1.png');
+}
+
+/*.left-panel .button-1:hover {
+				background: url('../img/button-1-active.png') no-repeat 1px 0;
+			}*/
+
+.left-panel .button-3 {
+    height: 81px;
+    width: 130px;
+    background: url('../img/button-3-blue.png');
+}
+
+
+.content .input-menu {
+    
+    font-size: 20px;
+    position: absolute;
+    margin-right: 40px;
+    top: 92px;
+    width: 401px;
+    height: 232px;
+    background: url('../img/input-menu-background.png');
+    z-index: 1;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.input-menu .input-menu-bar {
+    width: 401px;
+    height: 37px;
+    cursor: pointer;
+}
+
+    .input-menu .input-menu-bar:first-of-type {
+        margin-top: 45px;
+    }
+
+.input-menu-bar .left-bar {
+    float: left;
+    padding-right: 7px;
+    padding-left: 20px;
+    width: 220px;
+}
+
+.input-menu-bar .right-bar {
+    font-weight: bold;
+    color: #2e6a97;
+    margin-left: 255px;
+    padding-left: 14px;
+}
+
+
+.content .payment-method {
+    
+    font-size: 20px;
+    color: #48484a;
+    line-height: 44px;
+    margin-top: 43px;
+    margin-left: -5px;
+    width: 401px;
+}
+
+.payment-method .payment-line {
+    width: 280px;
+    height: 72px;
+    line-height: 72px;
+    padding-left: 80px;
+    cursor: pointer;
+}
+
+    .payment-method .payment-line.line-1 {
+        background: url('../img/pict-1-hover.png') no-repeat;
+    }
+
+        .payment-method .payment-line.line-1:hover {
+            background: url('../img/pict-1-hover.png') no-repeat;
+        }
+
+    .payment-method .payment-line.line-2 {
+        background: url('../img/pict-2.png') no-repeat;
+    }
+
+        .payment-method .payment-line.line-2:hover {
+            background: url('../img/pict-2-hover.png') no-repeat;
+        }
+
+    .payment-method .payment-line.line-3 {
+        background: url('../img/pict-3.png') no-repeat;
+    }
+
+        .payment-method .payment-line.line-3:hover {
+            background: url('../img/pict-3-hover.png') no-repeat;
+        }
+
+    .payment-method .payment-line.line-4 {
+        background: url('../img/pict-4.png') no-repeat;
+    }
+
+        .payment-method .payment-line.line-4:hover {
+            background: url('../img/pict-4-hover.png') no-repeat;
+        }
+
+    .payment-method .payment-line.line-5 {
+        background: url('../img/pict-5.png') no-repeat;
+    }
+
+        .payment-method .payment-line.line-5:hover {
+            background: url('../img/pict-5-hover.png') no-repeat;
+        }
+
+    .payment-method .payment-line.line-6 {
+        background: url('../img/pict-6.png') no-repeat;
+    }
+
+        .payment-method .payment-line.line-6:hover {
+            background: url('../img/pict-6-hover.png') no-repeat;
+        }
+
+.content .card-menu {
+    margin-top: 40px;
+    margin-left: 440px;
+    width: 285px;
+    height: 207px;
+    background: url('../img/card-menu-background.png') no-repeat;
+}
+
+.card-menu > div {
+    width: 285px;
+    cursor: pointer;
+}
+
+.card-menu .bar-1 {
+    margin-top: 8px;
+    height: 65px;
+}
+
+.card-menu .bar-2 {
+    height: 64px;
+}
+
+.card-menu .bar-3 {
+    height: 62px;
+}

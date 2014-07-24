@@ -1,0 +1,15 @@
+﻿body {
+    background: #376594;
+}
+
+.header-container {
+    background: url('../img/blue/header-container-background-fixed.png') no-repeat center top;
+}
+
+.main-container .content-container-shadow {
+    background: url(../img/blue/content-shadow.png) no-repeat left top;
+}
+.content .double-buttons.btn-bottom:after,
+.content .content-btn.btn-bottom:after {
+    background: url(../img/blue/content-btn-bottom-shadow.png) no-repeat top right;
+}

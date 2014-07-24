@@ -1,0 +1,95 @@
+.content .login-container {
+    /*position: relative;*/
+    margin-top: 23px;
+    /*z-index: 5;*/
+}
+
+.content .login-container,
+.content .input-menu {
+    margin-left: -1px;
+}
+
+
+
+
+.login-container .input-login {
+    font-size: 20px;
+    width: 381px;
+    height: 49px;
+    border: none;
+    background: url('../img/input.png') no-repeat;
+    padding-left: 20px;
+    margin: 5px 2px 0 2px;
+}
+
+.content .password-container {
+    margin-top: 15px;
+}
+
+.content .registration-container {
+    margin-top: 22px;
+}
+
+.registration-container .input-registration,
+.password-container .input-password {
+    font-size: 20px;
+    width: 381px;
+    height: 49px;
+    border: none;
+    background: url('../img/input.png') no-repeat;
+    padding-left: 20px;
+    margin-top: 3px;
+}
+
+.content .forgot-password {
+    font-size: 20px;
+    cursor: pointer;
+    color: #00ab4e;
+    text-decoration: underline;
+    margin-top: 15px;
+    margin-left: 1px;
+    display: block;
+}
+
+.content .login-button-container {
+    margin-top: -8px;
+    margin-left: -3px;
+    margin-bottom: 8px;
+    width: 823px;
+    height: 80px;
+    background: url('../img/transfer-button7.png') no-repeat;
+}
+
+
+.header .tech-button {
+    position: absolute;
+    left: 559px;
+    width: 252px;
+    height: 108px;
+    background: url('../img/tech-button.png') no-repeat 33px 27px;
+}
+
+.tech-button .tech-button-active {
+    display: none;
+    width: 392px;
+    height: 108px;
+    overflow-x: visible;
+    position: relative;
+    left: -56px;
+}
+
+.tech-button:hover .tech-button-active {
+    display: block;
+}
+
+.header .lang-button {
+    position: absolute;
+    left: 811px;
+    width: 161px;
+    height: 108px;
+    background: url('../img/lang-button.png') no-repeat 23px 28px;
+}
+
+.content-container .content{
+    padding-top: 120px;
+}

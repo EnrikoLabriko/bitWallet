@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Настройки</title>
+    <link rel="stylesheet" type="text/css" href="res/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="res/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="res/css/scroll.css" />
+    <link rel="stylesheet" type="text/css" href="res/css/select.css" />
+    <link rel="stylesheet" type="text/css" href="res/css/discrete.css" />
+    <link rel="stylesheet" type="text/css" href="res/css/other-settings.css" />
+    <script type="text/javascript" src="res/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="res/js/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="res/js/popup.js"></script>
+    <script type="text/javascript" src="res/js/global.js"></script>
+    <script type="text/javascript" src="res/js/drag.js"></script>
+    <script type="text/javascript" src="res/js/scroll.js"></script>
+    <script type="text/javascript" src="res/js/ctrl.js"></script>
+    <script type="text/javascript" src="res/js/discrete.js"></script>
+
+
+    <script type="text/javascript" src="/res/js/pages/other-settings.js"></script>
+</head>
+<body>
+    <div class="table-help-plate hidden"></div>
+    <div class="table-menu hidden">
+        <div class="table-menu-1">повторить операцию</div>
+        <div class="table-menu-2">сохранить шаблон</div>
+        <div class="table-menu-3">
+            добавить<br />
+            в адресную книгу
+        </div>
+    </div>
+    <div class="header-container">
+        <div class="header">
+            <div class="install-button active">
+                <a href="./settings.html" class="install-button-active db">
+                    <img src="res/img/install-button-hover.png">
+                </a>
+            </div>
+            <div class="tech-button">
+                <div class="tech-button-active">
+                    <img src="res/img/tech-button-hover.png">
+                </div>
+            </div>
+            <div class="lang-button"></div>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="content-container">
+            <div class="balance-header clearfix">
+                <div class="balance-button">Баланс: 356,4 $</div>
+                <div class="mail-button">Max_ora@gmail. com</div>
+                <div class="exit-button">Выйти</div>
+            </div>
+            <div class="left-panel">
+                <a href="./site-04.html" class="db button-1"></a>
+                <a href="./site-06.html" class="db button-2"></a>
+                <a href="./site-07.html" class="db button-3"></a>
+                <a href="./site-08.html" class="db button-4"></a>
+                <a href="./site-08.html" class="db button-5"></a>
+                <a href="./site-09.html" class="db button-6"></a>
+                <a href="./site-10.html" class="db button-7"></a>
+                <a href="./site-11.html" class="db button-8"></a>
+            </div>
+            <div class="content">
+                <div class="title">Дополнительные настройки</div>
+                <table class="settings-table">
+                    <tbody>
+                        <tr>
+                            <td class="name">подтверждать вход в кабинет <strong>sms/email</strong></td>
+                            <td class="setter"><div class="ctrl discrete-slider bool-slider" name="login-sms" compound="settings" value="0" steps="0,1"></div></td>
+                        </tr>
+                        <tr>
+                            <td class="name">подтверждать каждую транзакцию по <strong>sms/email</strong></td>
+                            <td class="setter"><div class="ctrl discrete-slider bool-slider" name="transaction-sms" compound="settings" value="1" steps="0,1"></div></td>
+                        </tr>
+                        <tr>
+                            <td class="name">длительность сессии</td>
+                            <td class="setter"><div class="ctrl discrete-slider session-slider" name="session" compound="settings" value="0.5" steps="0,0.5,1"></div></td>
+                        </tr>
+                        <tr>
+                            <td class="name">подключение информирования о проведенных<br /> операциях по <strong>sms/email</strong></td>
+                            <td class="setter"><div class="ctrl discrete-slider bool-slider" name="info" compound="settings" value="1" steps="0,1"></div></td>
+                        </tr>
+                        <tr>
+                            <td class="name">длительность действия основного пароля</td>
+                            <td class="setter"><div class="ctrl select short" noadd="true" name="pwd-timeout" compound="settings" options="1 мес.:1;2 мес.:2;3 мес.:3;4 мес.:4;5 мес.:5;6 мес.:6;7 мес.:7;8 мес.:8;9 мес.:9;10 мес.:10;11 мес.:11;12 мес.:12">6 мес.:6</div></td>
+                        </tr>
+                        <tr>
+                            <td class="name">подтверждать смену пароля / телефона / e-mail по <strong>sms/email</strong></td>
+                            <td class="setter"><div class="ctrl discrete-slider bool-slider" noadd="true" name="profile" compound="settings" value="1" steps="0,1"></div></td>
+                        </tr>
+                        <tr>
+                            <td class="name">получать рассылку новостей</td>
+                            <td class="setter"><div class="ctrl discrete-slider bool-slider" name="subscribe" compound="settings" value="1" steps="0,1"></div></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="cb"></div>
+                <div class="btn-cont double" id="actions">
+                    <div class="double-buttons btn-bottom">
+                        <a class="button-1" href="./site-05(2).html">Импорт кошелька</a>
+                        <!--
+                        -->
+                        <a class="button-2" href="./site-04.html">Экспорт кошелька</a>
+                    </div>
+                </div>
+                <div class="cb"></div>
+            </div>
+        </div>
+        <div class="content-container-shadow">
+        </div>
+    </div>
+</body>
+</html>

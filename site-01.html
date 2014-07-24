@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Вход на сайт</title>
+    <link rel="stylesheet" type="text/css" href="res/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="res/fonts/MyriadPro/style.css" />
+    <link rel="stylesheet" type="text/css" href="res/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="res/css/style-01.css" />
+    <script type="text/javascript" src="res/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="res/js/pages/login.js"></script>
+</head>
+<body>
+    <div class="table-help-plate hidden"></div>
+    <div class="table-menu hidden">
+        <div class="table-menu-1">повторить операцию</div>
+        <div class="table-menu-2">сохранить шаблон</div>
+        <div class="table-menu-3">
+            добавить<br />
+            в адресную книгу
+        </div>
+    </div>
+    <div class="header-container">
+        <div class="header">
+            <div class="tech-button">
+                <div class="tech-button-active">
+                    <img src="res/img/tech-button-hover.png">
+                </div>
+            </div>
+            <div class="lang-button"></div>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="content-container">
+            <div class="content">
+                <div class="title">Вход</div>
+                <div class="form-container">
+                    <label>имя пользователя</label>
+                    <input class="input" type="text" id="login" value="196qcBnKemVGm3nREdr">
+                </div>
+                <div class="form-container" style="margin-bottom: 0px;">
+                    <label>пароль</label>
+                    <input class="input" type="text" id="password" value="196qcBnKemVGm3nREdr">
+                </div>
+                <a href="javascript://;" onclick="$page.toggleRestore();" class="forgot-password">забыли пароль?</a>
+                <div class="cb"></div>
+                <div class="btn-cont">
+                    <a class="content-btn login" href="#">Войти</a>
+                </div>
+                <div class="cb"></div>
+                <div class="top-shadow-sep">
+                </div>
+                <div id="restore-password-container" style="height: 0px; overflow-y: hidden; position: relative;">
+                    <div class="title">Восстановление пароля</div>
+                    <div class="form-container">
+                        <label>введите свой телефон или e-mail</label>
+                        <input class="input" type="text" id="forgot-login" value="196qcBnKemVGm3nREdr">
+                    </div>
+                    <div class="form-container">
+                        <label>введите код для восстановления пароля</label>
+                        <input class="input" type="text" id="forgot-code" value="196qcBnKemVGm3nREdr">
+                    </div>
+                    <div class="cb"></div>
+                    <div class="btn-cont">
+                        <a class="content-btn restore" href="#">Востановить</a>
+                    </div>
+                    <div class="cb"></div>
+                </div>
+                <div class="top-shadow-sep" style="display: none;">
+                </div>
+                <div class="title">Регистрация</div>
+                <div class="form-container">
+                    <label>введите свой телефон или e-mail</label>
+                    <input class="input" type="text" id="registration" value="196qcBnKemVGm3nREdr">
+                </div>
+                <div class="cb"></div>
+                <div class="btn-cont" style="margin-top: 140px;">
+                    <a class="content-btn btn-bottom register" href="#">Зарегистрироваться</a>
+                </div>
+                <div class="cb"></div>
+            </div>
+        </div>
+        <div class="content-container-shadow">
+        </div>
+    </div>
+</body>
+</html>

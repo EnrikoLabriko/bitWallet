@@ -1,0 +1,16 @@
+
+.left-panel > div {
+    cursor: pointer;
+}
+
+.left-panel .button-5 {
+    background: url(../img/button-5-blue.png) 1px 0;
+}
+
+.content .top-shadow-sep.short {
+    margin-top: 0px;
+}
+
+.content .top-shadow-sep.short{
+    margin-bottom: 50px;
+}

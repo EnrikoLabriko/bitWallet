@@ -1,0 +1,184 @@
+
+.left-panel > div {
+    cursor: pointer;
+}
+
+
+.left-panel .button-6 {
+    height: 81px;
+    width: 130px;
+    background: url('../img/button-6-blue.png');
+}
+
+
+.content .choose-wallet-container {
+    position: relative;
+    margin-top: 23px;
+    float: left;
+    z-index: 5;
+}
+
+.content .choose-wallet-container,
+.content .input-menu {
+    margin-left: -1px;
+}
+
+
+.choose-wallet-container .choose-wallet,
+.total-container .total {
+    
+    font-size: 20px;
+    color: #2e6a97;
+}
+
+.choose-wallet-container .input-choose-wallet {
+    
+    font-size: 20px;
+    cursor: pointer;
+    width: 377px;
+    height: 45px;
+    border: none;
+    background: url('../img/input2.png') no-repeat;
+    padding-left: 20px;
+    margin: 5px 2px 0 2px;
+}
+
+.content .input-menu {
+    
+    font-size: 20px;
+    position: absolute;
+    margin-right: 40px;
+    top: 92px;
+    width: 401px;
+    height: 232px;
+    background: url('../img/input-menu-background.png');
+    z-index: 1;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.input-menu .input-menu-bar {
+    width: 401px;
+    height: 37px;
+    cursor: pointer;
+}
+
+    .input-menu .input-menu-bar:first-of-type {
+        margin-top: 45px;
+    }
+
+.input-menu-bar .left-bar {
+    float: left;
+    padding-right: 7px;
+    padding-left: 20px;
+    width: 220px;
+}
+
+.input-menu-bar .right-bar {
+    font-weight: bold;
+    color: #2e6a97;
+    margin-left: 255px;
+    padding-left: 14px;
+}
+
+
+
+.content .checkbox-container {
+    margin-top: 13px;
+}
+
+.checkbox-container > div {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.checkbox-container .checkbox-1 {
+    width: 226px;
+    height: 25px;
+    margin-left: -1px;
+    background: url('../img/checkbox-1.png');
+}
+
+    .checkbox-container .checkbox-1.checked {
+        background: url('../img/checkbox-1-checked.png');
+    }
+
+.checkbox-container .checkbox-2 {
+    width: 158px;
+    height: 25px;
+    margin-left: 15px;
+    background: url('../img/checkbox-2.png');
+}
+
+    .checkbox-container .checkbox-2.checked {
+        background: url('../img/checkbox-2-checked.png');
+    }
+
+
+.content .payment-method {
+    
+    font-size: 20px;
+    color: #48484a;
+    line-height: 44px;
+    margin-top: 36px;
+    margin-left: -2px;
+    width: 401px;
+}
+
+.payment-method .payment-line {
+    width: 280px;
+    height: 72px;
+    line-height: 72px;
+    padding-left: 80px;
+    cursor: pointer;
+}
+
+    .payment-method .payment-line.line-1 {
+        background: url('../img/pict-7-hover.png') no-repeat;
+    }
+
+        .payment-method .payment-line.line-1:hover {
+            background: url('../img/pict-7-hover.png') no-repeat;
+        }
+
+    .payment-method .payment-line.line-2 {
+        background: url('../img/pict-8.png') no-repeat;
+    }
+
+        .payment-method .payment-line.line-2:hover {
+            background: url('../img/pict-8-hover.png') no-repeat;
+        }
+
+    .payment-method .payment-line.line-3 {
+        background: url('../img/pict-9.png') no-repeat;
+    }
+
+        .payment-method .payment-line.line-3:hover {
+            background: url('../img/pict-9-hover.png') no-repeat;
+        }
+
+.content .card-menu {
+    margin-top: 30px;
+    margin-left: 440px;
+    width: 285px;
+    height: 207px;
+    background: url('../img/card-menu-background.png') no-repeat;
+}
+
+.card-menu > div {
+    width: 285px;
+    cursor: pointer;
+}
+
+.card-menu .bar-1 {
+    margin-top: 8px;
+    height: 65px;
+}
+
+.card-menu .bar-2 {
+    height: 64px;
+}
+
+.card-menu .bar-3 {
+    height: 62px;
+}

@@ -1,0 +1,141 @@
+﻿.select {
+    cursor: pointer;
+    width: 397px;
+    height: 45px;
+    background: url('../img/input.png') no-repeat;
+    margin: 5px 2px 0 2px;
+}
+.select.short{
+    width: 135px;
+    background: url(../img/select-short.png) no-repeat;
+    margin: 0;
+}
+
+    .select .btn {
+        width: 39px;
+        height: 45px;
+        background: url(../img/select-btn.png) no-repeat left top;
+    }
+    .select.short .btn{
+        background: url(../img/select-short-btn.png) no-repeat;
+    }
+
+    /*.select.select-disabled .btn,
+    .select.select-disabled:hover .btn {
+        border-top-color: #ccc;
+    }*/
+
+    .select.select-disabled .title,
+    .select.select-disabled:hover .title {
+        color: #ccc;
+    }
+
+    /*.select.select-opened .btn {
+        visibility: hidden;
+    }*/
+
+    .select .title {
+        margin: 0px;
+        line-height: 45px;
+        margin-right: 135px;
+        padding-left: 20px;
+        font-size: 20px;
+        vertical-align: middle;
+    }
+    .select.noadd .title{
+        margin-right: 45px;
+    }
+    .select.short .title{
+        color: #FFF;
+    }
+
+    .select .select-down {
+        padding-top: 55px;
+        position: absolute;
+        width: 397px;
+        height: 249px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        z-index: 100;
+        background: url(../img/select-down.png) no-repeat left top;
+    }
+    .select.short .select-down{
+        height: 216px;
+        width: 135px;
+        background: url(../img/select-short-down.png) no-repeat left top;
+    }
+
+.select-down .select-middle {
+    /*padding-top: 5px;*/
+    /*padding-bottom: 5px;*/
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 184px;
+    width: 397px;
+    /*background: #3c5a96;*/
+    /* Клиппинг углов. Раскомментировать, выдернуть шнур и выдавить стекло в случае крайней нужды :) */
+    /*-webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);*/
+}
+.select.short .select-down .select-middle{
+    height: 151px;
+    width: 135px;
+}
+
+.select .select-down a {
+    text-decoration: none;
+    height: 41px;
+    line-height: 41px;
+    font-size: 20px;
+    display: block;
+    white-space: nowrap;
+    margin-right: 0px;
+    padding-left: 20px;
+    padding-right: 49px;
+    /*border-top: 1px solid #CCC;*/
+    border-bottom: none;
+}
+
+    .select .select-down a .add {
+        float: right;
+        height: 41px;
+        color: #2e6a97;
+        line-height: 41px;
+    }
+    .select .select-down a .add:after
+    {
+        content: '';
+        height: 20px;
+        vertical-align: top;
+        padding-top: 20px;
+        width: 17px;
+        display: inline-block;
+        background: url(../img/bitcoin-icon-small-blue.png) no-repeat right center;
+    }
+    .select .add-val {
+        float: right;
+        height: 45px;
+        color: #2e6a97;
+        line-height: 45px;
+        font-size: 20px;
+    }
+    .select .add-val:after
+    {
+        content: '';
+        height: 20px;
+        vertical-align: top;
+        padding-top: 25px;
+        width: 26px;
+        display: inline-block;
+        background: url(../img/bitcoin-icon-small-blue.png) no-repeat 5px center;
+    }
+
+    .select .select-down a:hover{
+        background: #2e6a97;
+        color: #FFF;
+    }
+    .select .select-down a:hover .add{
+        color: #FFF;
+    }
+    .select .select-down a:hover .add:after{
+        background: url(../img/bitcoin-icon-small-white.png) no-repeat right center;
+    }
