@@ -8,16 +8,16 @@
 
 ### Страница регистрации
 
-![Главная страница](screenshots/site-03.png)
+![Страница регистрации](screenshots/site-03.png)
 
 ### Пополнение счёта
 
-![Главная страница](screenshots/site-07.png)
+![Пополнение счёта](screenshots/site-07.png)
 
 ### История операций
 
-![Главная страница](screenshots/site-10.png)
+![История операций](screenshots/site-10.png)
 
 ### Доп. настройки
 
-![Главная страница](screenshots/other-settings.png)
+![Доп. настройки](screenshots/other-settings.png)
